@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="styles/general.css">
         <link rel="stylesheet" href="styles/header.css">
         <link rel="stylesheet" href="styles/video.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -35,11 +36,28 @@
             <div class = "right-section">
                 <img class = "upload" src = "header_icons/upload.svg">
                 <img class = "youtube-apps" src = "header_icons/youtube-apps.svg">
-                <img class =  "notifications" src = "header_icons/notifications.svg">
+                <div class = "notifications-icon-container">
+                    <img class =  "notifications" src = "header_icons/notifications.svg">
+                    <div class = "notification-bubble">3</div>
+                </div>
                 <img class = "my-channel" src = "channels/my-channel.jpeg">
             </div> 
             
         </div>
+
+        <div class = "sidebar">
+            <button class = "home-button"
+                <img class = "home-icon" src = "sidebar_icons/home.svg">
+                <p class = "home-text">Home</p>
+            </button>
+            
+            <img class = "explore-icon" src = "sidebar_icons/explore.svg">
+            <img class = "subscriptions-icon" src = "sidebar_icons/subscriptions.svg">
+            <img class = "originals-icon" src = "sidebar_icons/originals.svg">
+            <img class = "youtube-music-icon" src = "sidebar_icons/youtube-music.svg">
+            <img class = "library-icon" src = "sidebar_icons/library.svg">
+        </div>
+
 
         <div class ="video-grid">
             
@@ -47,7 +65,11 @@
                 <div>
                     <img class = "thumbnail" src="thumbnails/thumbnail-1.webp">
                 </div>
-                <div class ="thumbnail-row"></div>          
+                <div class ="thumbnail-row">
+                    <div class = "video-time">
+                        14:20
+                    </div>
+                </div>          
                 <div class ="video-info-grid">
                     <div class ="channel-section">
                         <img class = "channel-picture" src="channels/channel-1.jpeg">
@@ -72,7 +94,11 @@
                 <div>
                     <img class = "thumbnail" src="thumbnails/thumbnail-2.webp">
                 </div>
-                <div class ="thumbnail-row"></div>          
+                <div class ="thumbnail-row">
+                    <div class = "video-time">
+                        8:22
+                    </div>
+                </div>          
                 <div class="video-info-grid">
                     <div class ="channel-section">
                         <img class = "channel-picture" src="channels/channel-2.jpeg">
@@ -97,7 +123,11 @@
                 <div>
                     <img class = "thumbnail" src="thumbnails/thumbnail-3.webp">
                 </div>
-                <div class ="thumbnail-row"></div>          
+                <div class ="thumbnail-row">
+                    <div class = "video-time">
+                        9:13
+                    </div>
+                </div>          
                 <div class ="video-info-grid">
                     <div class ="channel-section">
                         <img class = "channel-picture" src="channels/channel-3.jpeg">
@@ -122,7 +152,11 @@
                 <div>
                     <img class = "thumbnail" src="thumbnails/thumbnail-4.webp">
                 </div>
-                <div class ="thumbnail-row"></div>          
+                <div class ="thumbnail-row">
+                    <div class = "video-time">
+                        22:09
+                    </div>
+                </div>          
                 <div class="video-info-grid">
                     <div class ="channel-section">
                         <img class = "channel-picture" src="channels/channel-4.jpeg">
@@ -147,7 +181,11 @@
                 <div>
                     <img class = "thumbnail" src="thumbnails/thumbnail-5.webp">
                 </div>
-                <div class ="thumbnail-row"></div>          
+                <div class ="thumbnail-row">
+                    <div class = "video-time">
+                        11:17
+                    </div>
+                </div>          
                 <div class ="video-info-grid">
                     <div class ="channel-section">
                         <img class = "channel-picture" src="channels/channel-5.jpeg">
@@ -172,7 +210,11 @@
                 <div>
                     <img class = "thumbnail" src="thumbnails/thumbnail-6.webp">
                 </div>
-                <div class ="thumbnail-row"></div>          
+                <div class ="thumbnail-row">
+                    <div class = "video-time">
+                        19:59
+                    </div>
+                </div>          
                 <div class="video-info-grid">
                     <div class ="channel-section">
                         <img class = "channel-picture" src="channels/channel-6.jpeg">
