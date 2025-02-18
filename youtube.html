@@ -4,86 +4,43 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Youtube</title>
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/video.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <style>
-            
-            p {
-                font-family: Roboto, Arial;
-                font-size: 14px;
-                margin-top: 0;
-                margin-bottom: 0;
-            }
-        
-            .search-bar {
-                display: block;
-
-            }
-
-
-            .video-grid {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                column-gap: 16px;
-                row-gap: 40px;
-
-            }
-
-            .thumbnail {
-                width: 100%;
-            }
-
-            .thumbnail-row {
-                margin-top: 12px;
-            }
-
-            .video-info-grid {
-                display: grid;
-                grid-template-columns: 50px 1fr;
-            }
-
-            .channel-section {
-            vertical-align: bottom;
-            }
-
-            .channel-picture {
-                width: 40px;
-                border-radius: 50px;
-                object-fit: cover;
-            }
-
-            .video-info {
-                vertical-align: top;
-            }
-
-            .video-title {
-                margin-top: 0;
-                font-size: 14px;
-                font-weight: 600;
-                margin-bottom: 10px;
-                line-height: 20px;
-            }
-
-            .video-author {
-                font-size: 13px;
-                color: rgb(96, 96, 96);
-                
-            }
-
-            .video-stats {
-                font-size: 13px;
-                margin-top: 2px;
-                color: rgb(96, 96, 96);
-                
-            }
-            
-        </style>
     </head>
+    
     <body>
         
-        <input class="search-bar" type="text" id="search" placeholder="Search">
-        
+        <div class = "header">            
+            <div class = "left-section">
+                <img class = "hamburger-menu" src = "header_icons/hamburger-menu.svg">
+                <img class = "youtube-logo" src = "header_icons/youtube-logo.svg">
+            </div>
+
+            <div class = "center-section">
+                <input class="search-bar" type="text" id="search" placeholder="Search">
+                
+                <button class = "search-button">
+                    <img class = "search-icon" src = "header_icons/search.svg">    
+                </button>
+                
+                <button class = "voice-search-button">
+                    <img class = "voice-search-icon" src = "header_icons/voice-search-icon.svg">   
+                </button>
+            </div>
+
+            <div class = "right-section">
+                <img class = "upload" src = "header_icons/upload.svg">
+                <img class = "youtube-apps" src = "header_icons/youtube-apps.svg">
+                <img class =  "notifications" src = "header_icons/notifications.svg">
+                <img class = "my-channel" src = "channels/my-channel.jpeg">
+            </div> 
+            
+        </div>
+
         <div class ="video-grid">
             
             <div>
