@@ -5,40 +5,32 @@
     bottom: 0;
     top: 55px;
     width: 72px;
+    background-color: white;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    z-index: 200;
+}
+
+.sidebar-link {
+    height: 76px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: top;
-    background-color: white;
-
-
+    justify-content: center;
+    cursor: pointer;
 }
 
-.home-button {
-    height: 55px;
+.sidebar-link:hover {
+    background-color: rgb(213, 213, 213);
 }
 
-.home-icon {
-    height: 24px;
-
+.sidebar-text {
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    padding-top: 5px;
 }
 
-.explore-icon {
-    height: 24px;
-}
-
-.subscriptions-icon {
-    height: 24px;
-}
-
-.originals-icon {
-    height: 24px;
-}
-
-.youtube-music-icon {
-    height: 24px;
-}
-
-.library-icon {
+.sidebar-icon {
     height: 24px;
 }
